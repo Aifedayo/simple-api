@@ -6,4 +6,3 @@ from .models import Hero
 class HeroViewSet(viewsets.ModelViewSet):
     queryset = Hero.objects.all().order_by('id')
     serializer_class = HeroSerializer
-

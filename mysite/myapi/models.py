@@ -7,7 +7,7 @@ class Hero(models.Model):
     def __str__(self):
         return self.name
 
-class Villians(models.Model):
+class Villain(models.Model):
     name = models.CharField(max_length=60)
     alias = models.CharField(max_length=60)
 
